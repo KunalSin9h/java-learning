@@ -3,11 +3,14 @@ package datetime;
 // DateFormat is an Abstract Class parent of SimpleDateFormat
 // And it is in java.text
 import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 
 import java.util.Date;
-import java.util.Locale;
-import java.util.Calendar;
 // also in java.sql.Date
+import java.util.Locale;
+
+// Calendar is in util
+import java.util.Calendar;
 
 public class DateTime {
     public static void main(String[] args) {
