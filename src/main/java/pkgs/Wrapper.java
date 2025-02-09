@@ -1,6 +1,5 @@
 package pkgs;
 
-import java.lang.Math;
 
 /**
  * Classpath
@@ -10,10 +9,30 @@ import java.lang.Math;
  * Using -cp command line argument
  * -classpath
  */
-public class Kunal {
-    // JAVA 21
-    void main(){
+public class Wrapper {
+    // Wrapper class are available in java.lang package
 
+    public static void wrapperClass() {
+        // Instantiating wrapper class in 3 ways
+        // 1.
+        Integer i = new Integer(1);
+
+        // 2.
+        // JAVA 5 (auto boxing)
+        Double d = 0.3;
+
+        // unboxing
+        double dd = d;
+
+        // 3.
+        // using .valueOf() method
+        Boolean b = Boolean.valueOf(true);
+        // for sure .valueOf is a static method in Boolean Class
+
+
+        // all wrapper class has .parseXXX() method
+        Integer age = Integer.parseInt("22");
+        // here also
     }
 }
 
