@@ -1,4 +1,4 @@
-package org.example;
+package org.basic;
 
 // bellow is java-doc comment
 // for auto generating documentations
